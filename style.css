@@ -1,0 +1,443 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/*Header*/
+header{
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: orange;
+}
+
+.logo img{
+    max-height: 100px;
+    width: auto;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav a:hover{
+    color: orange;
+}
+
+/*Hero section */
+
+.hero{
+    background: linear-gradient(black,orange);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.hero .content{
+    animation: fadeIn 2s ease-in-out;
+}
+
+.typewritter{
+    display: inline-block;
+    overflow: hidden;
+    border-right: 3px solid orange;
+    white-space: nowrap;
+    letter-spacing: 2px;
+    animation: typing 3s steps(20, end), blink 0.5s step-end infinite alternate;
+}
+
+.blink-cursor{
+    animation: blink 1s step-end infinite alternate;
+}
+
+.Welcome{
+    font-size: 24px;
+    font-weight: bold;
+    animation: parallax 3s ease-in-out infinite alternate;
+}
+
+.action-button{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.hire-me{
+    background-color: orange;
+    color: white;
+}
+
+.hire-me:hover{
+    background-color: white;
+    transform: scale(1.05);
+    color: black;
+}
+
+.get-cv{
+    background-color: white;
+    color: black;
+}
+
+.get-cv:hover{
+    background-color: orange;
+    transform: scale(1.05);
+    color: white;
+}
+
+/*about section */
+
+.about{
+    padding: 80px 20px;
+    background-color: white;
+    text-align: center;
+}
+
+.about .my-photo {
+    border-radius: 50%;
+    width: 200px;
+    /*height: auto;*/
+    height: 250px;
+}
+
+.about .my-photo:hover{
+    background-color: black;
+    transform: scale(1.2);
+    filter: brightness(1.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6)
+}
+
+.about p{
+    font-weight: bold;
+}
+
+.about h2:hover{
+    color: orange;
+}
+
+/*project section */
+
+.projects{
+    padding: 80px 20px;
+    background-color:#222 ;
+    color: white;
+} 
+
+.projects h2{
+    text-align: center;
+}
+
+.projects h2:hover{
+    color: orange;
+}
+
+.Skills h2{
+    text-align: center;
+}
+
+.Skills h2:hover{
+    color: orange;
+}
+
+.Skills p{
+    text-align: center;
+    font-weight: bold;
+}
+
+.skill-item img{
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+}
+
+.skill-item img:hover{
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6);
+}
+
+.skill-pic{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+    justify-items: center;
+    background-color: #f9f9f9;
+}
+
+
+.project-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    font-weight: bold;
+}
+
+.project-card1{
+    background: orange;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card2{
+    background: orange;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card3{
+    background: orange;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/*.project-card4{
+    background: orange;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}*/
+
+
+.project-card1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+    background-image: url(amazon.jpeg);
+    background-size: cover;
+}
+
+.project-card2:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+    background-image: url(golf.jpeg);
+    background-size: cover;
+}
+
+.project-card3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+    background-image: url(portfolio.jpeg);
+    background-size: cover;
+}
+
+/*.project-card4:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.4);
+    background-image: url(amazon.jpeg);
+    background-size: cover;
+}*/
+
+.project-link{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-link button{
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 10px;
+    border-color: orange;
+}
+
+.project-link button:hover{
+    background-color: black;
+    color: white;
+}
+
+/*.Skills li{
+    font-weight: bold;
+}*/
+
+.first-project-name{
+    text-align: center;
+    text-decoration: solid underline;
+}
+
+/* contact section */
+
+.Contact{
+    padding: 80px 20px;
+    background: white;
+    text-align: center;
+}
+
+.Contact h2{
+    text-align: center;
+}
+
+.Contact h2:hover{
+    color: orange;
+}
+
+.button-container{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+form input, form textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+form button{
+    background-color: orange;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    border-radius: 10px;
+    border-color: orange;
+}
+
+form button:hover{
+    background: black;
+}
+
+form input{
+    border-radius: 10px;
+}
+form textarea{
+    border-radius: 10px ;
+}
+
+form input:hover{
+    border : 3px solid black;
+}
+
+form textarea:hover{
+    border: 3px solid black;
+}
+
+/*footer*/
+
+footer{
+    text-align: center;
+    padding: 20px 0;
+    background: black;
+    color: white;
+}
+
+footer h3:hover{
+    color: orange;
+}
+
+.social-links img{
+    border-radius: 50%;
+}
+
+.social-links a:hover img{
+    transform: scale(1.2);
+    filter: brightness(1.2);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.6)
+}
+
+/*Animation*/
+
+@keyframes typing {
+    form {
+        width: 0;
+    }
+    to {
+        width: 100% ;
+    }
+}
+
+@keyframes blink {
+    form {
+        border-color: orange;
+    }
+    to{
+        border-color: transparent;
+    }
+}
+
+@keyframes fadeIn {
+    form{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes parallax {
+    form{
+        transform: translateY(-10px);
+    }
+    to{
+        transform: translateY(10px);
+    }
+}
