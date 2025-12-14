@@ -85,9 +85,9 @@ https://ziyankhan.netlify.app
 <h2>👤 Author</h2>
 <p>
 <strong>Ziyan Khan</strong><br>
-🌐 Portfolio: <a href="https://ziyankhan.netlify.app" target="_blank">ziyankhan.netlify.app</a><br>
-💼 LinkedIn: <a href="https://www.linkedin.com/in/ziyan-khan-b479332a7" target="_blank">LinkedIn Profile</a><br>
-📷 Instagram: <a href="https://www.instagram.com/mr__ziyan__khan" target="_blank">@mr__ziyan__khan</a>
+🌐 Portfolio: <a href="https://ziyankhan.netlify.app" target="_blank">Link</a><br>
+💼 LinkedIn: <a href="https://www.linkedin.com/in/ziyan-khan-b479332a7" target="_blank">Link</a><br>
+📷 Instagram: <a href="https://www.instagram.com/mr__ziyan__khan" target="_blank">Link</a>
 </p>
 
 <hr>
