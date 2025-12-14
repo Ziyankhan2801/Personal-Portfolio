@@ -76,8 +76,8 @@ https://ziyankhan.netlify.app
 
 <h2>📸 This is how it looks</h2>
 <ul>
-  <li>Dark Theme (Add screenshot)</li>
-  <li>Light Theme (Add screenshot)</li>
+  <li>In dark mode (Add screenshot)</li>
+  <li>In Light mode (Add screenshot)</li>
 </ul>
 
 <hr>
