@@ -7,7 +7,7 @@
 
 A modern, responsive **Personal Portfolio Website** built to showcase my **skills, projects, and professional profile** as a **Web Developer / UI-UX Designer**.
 
-This portfolio is designed with a clean UI, smooth interactions, and a strong focus on user experience.
+Designed with a clean UI, smooth interactions, and a strong focus on user experience.
 
 ---
 
@@ -17,10 +17,10 @@ This portfolio is designed with a clean UI, smooth interactions, and a strong fo
 - 📱 Fully responsive on all devices  
 - 🌙 Light & Dark theme support  
 - 🧑‍💻 About Me section  
-- 🛠️ Skills & Tech stack showcase  
+- 🛠️ Skills & tech stack showcase  
 - 📂 Projects with live/demo links  
 - 📞 Contact & social media links  
-- ⚡ Fast loading & optimized
+- ⚡ Fast loading & optimized  
 
 ---
 
@@ -39,57 +39,57 @@ This portfolio is designed with a clean UI, smooth interactions, and a strong fo
 ZIYAN-PORTFOLIO/
 │
 ├── assets/
-│   ├── css/        # All CSS files
-│   ├── img/        # Images & icons
-│   ├── js/         # JavaScript files
-│   └── pdf/        # Resume / documents
+│   ├── css/
+│   ├── img/
+│   ├── js/
+│   └── pdf/
 │
-├── index.html      # Main HTML file
-└── README.md       # Project documentation
-</pre>
+├── index.html
+└── README.md
 
-<hr>
+---
 
-<h2>🚀 How to Run the Project</h2>
+## 🚀 How to Run the Project
 
-<pre>
 1. Clone the repository
 git clone https://github.com/your-username/your-repo-name.git
 
-2. Open the folder
+2. Open the project folder
 cd ZIYAN-PORTFOLIO
 
 3. Run the website
 Open index.html in your browser
-</pre>
 
-<hr>
+---
 
-<h2>🌍 Live Demo</h2>
-<p>
-🔗 Portfolio Website:
-👉 https://ziyankhan.netlify.app
+## 🌍 Live Demo
 
-📸 Screenshots
-🌙 Dark Theme
+🔗 Portfolio Website  
+https://ziyankhan.netlify.app
 
+---
+
+## 📸 Screenshots
+
+### 🌙 Dark Theme
 (Add screenshot here)
 
-☀️ Light Theme
-
+### ☀️ Light Theme
 (Add screenshot here)
 
-👤 Author
+---
+
+## 👤 Author
 
 Ziyan Khan
 
-🌐 Portfolio: https://ziyankhan.netlify.app
-
-💼 LinkedIn: https://www.linkedin.com/in/ziyan-khan-b479332a7
-
+🌐 Portfolio: https://ziyankhan.netlify.app  
+💼 LinkedIn: https://www.linkedin.com/in/ziyan-khan-b479332a7  
 📷 Instagram: https://www.instagram.com/mr__ziyan__khan
 
-📜 License
+---
+
+## 📜 License
 
 This project is open-source and free to use for learning and personal purposes.
 
