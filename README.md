@@ -112,7 +112,23 @@ ZIYAN-PORTFOLIO/
 │   ├── img/        # Images & icons
 │   ├── js/         # JavaScript files
 │   └── pdf/        # Resume / documents
+├── assets/
+│   ├── css/        # All CSS files
+│   ├── img/        # Images & icons
+│   ├── js/         # JavaScript files
+│   └── pdf/        # Resume / documents
 │
+├── index.html      # Main HTML file
+└── README.md       # Project documentation
+</pre>
+
+<hr>
+
+<h2>🚀 How to Run the Project</h2>
+
+<pre>
+1. Clone the repository
+git clone https://github.com/your-username/your-repo-name.git
 ├── index.html      # Main HTML file
 └── README.md       # Project documentation
 </pre>
@@ -126,8 +142,17 @@ ZIYAN-PORTFOLIO/
 git clone https://github.com/your-username/your-repo-name.git
 
 2. Open the folder
+2. Open the folder
 cd ZIYAN-PORTFOLIO
 
+3. Run the website
+Open index.html in your browser
+</pre>
+
+<hr>
+
+<h2>🌍 Live Demo</h2>
+<p>
 3. Run the website
 Open index.html in your browser
 </pre>
