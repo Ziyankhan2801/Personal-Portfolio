@@ -1393,3 +1393,15 @@ body.light-theme .timeline-item::before {
   box-shadow: 0 6px 18px hsla(var(--first-hue), var(--sat), var(--lig), 0.45);
   background-color: var(--first-color-alt);
 }
+
+
+.client-tag{
+  margin-left: 8px;
+  font-size: 11px;
+  padding: 2px 8px;
+  border-radius: 12px;
+  background: #e0f2fe;
+  color: #0369a1;
+  font-weight: 600;
+  vertical-align: middle;
+}
