@@ -1318,3 +1318,78 @@ body.light-theme .timeline-item::before {
   outline-offset: 4px;
   border-radius: 0.7rem;
 }
+
+
+/* ===== WORK SECTION ENHANCEMENTS ===== */
+
+.work__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  text-align: center;
+}
+
+.work__desc {
+  font-size: 0.8rem;
+  color: var(--text-color-light);
+  margin: 0.3rem 0 0.5rem;
+  line-height: 1.4;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.work__tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 0.6rem;
+}
+
+.tech-badge {
+  font-size: 0.65rem;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  background-color: var(--first-color);
+  color: var(--body-color);
+  font-weight: 500;
+}
+
+.work__button {
+  margin-top: auto;
+}
+
+
+.work__img {
+  border-radius: 1rem;
+  transition: transform 0.3s ease;
+}
+
+.work__card:hover .work__img {
+  transform: scale(1.03);
+}
+
+
+/* ===== TECH BADGE HOVER EFFECT ===== */
+
+.tech-badge {
+  font-size: 0.65rem;
+  padding: 0.25rem 0.55rem;
+  border-radius: 999px;
+  background-color: var(--first-color);
+  color: var(--body-color);
+  font-weight: 500;
+
+  transition: 
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    background-color 0.25s ease;
+}
+
+.tech-badge:hover {
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 6px 18px hsla(var(--first-hue), var(--sat), var(--lig), 0.45);
+  background-color: var(--first-color-alt);
+}
